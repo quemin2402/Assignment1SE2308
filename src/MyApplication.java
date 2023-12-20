@@ -20,8 +20,8 @@ public class MyApplication {
             shape.addPoint(point);
         }
 
-        System.out.println(shape.P());
-        System.out.println(shape.averSide());
-        System.out.println(shape.longSide());
+        System.out.println("perimeter: " + shape.calculatePerimeter());
+        System.out.println("average side: " + shape.getAverageSide());
+        System.out.println("longest side: " + shape.getLongestSide());
     }
 }
